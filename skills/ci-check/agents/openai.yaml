@@ -1,0 +1,4 @@
+interface:
+  display_name: "CI 检查"
+  short_description: "按风险选择必要检查，统一验证累计改动、测试保护和真实接口行为"
+  default_prompt: "使用 $ci-check 统一验证本批累计改动，按风险审视测试保护、复用有效结果，按需启动项目实测接口并汇总未验证项。"

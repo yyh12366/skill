@@ -1,0 +1,4 @@
+interface:
+  display_name: "实现（最后统一 CI）"
+  short_description: "先实现、审查和暂存代码，用户要求 CI 或 push 时统一验证"
+  default_prompt: "使用 $implement-with-ci 实现当前需求，只修改、审查和按规则暂存业务代码，等我要求 CI 或 push 时再统一验证。"
